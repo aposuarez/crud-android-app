@@ -1,3 +1,28 @@
 <resources>
-    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="default_page_spacing">28dp</dimen>
+
+    <!--  Default margins  -->
+    <dimen name="default_margin_2dp">2dp</dimen>
+    <dimen name="default_margin_4dp">4dp</dimen>
+    <dimen name="default_margin_8dp">8dp</dimen>
+    <dimen name="default_margin_16dp">16dp</dimen>
+    <dimen name="default_margin_24dp">24dp</dimen>
+    <dimen name="default_margin_32dp">32dp</dimen>
+    <dimen name="default_margin_48dp">48dp</dimen>
+    <dimen name="default_margin_56dp">56dp</dimen>
+    <dimen name="default_margin_64dp">64dp</dimen>
+    <dimen name="default_margin_128dp">128dp</dimen>
+
+    <!--  Default padding  -->
+    <dimen name="default_padding_2dp">2dp</dimen>
+    <dimen name="default_padding_4dp">4dp</dimen>
+    <dimen name="default_padding_8dp">8dp</dimen>
+    <dimen name="default_padding_16dp">16dp</dimen>
+    <dimen name="default_padding_24dp">24dp</dimen>
+    <dimen name="default_padding_32dp">32dp</dimen>
+    <dimen name="default_padding_48dp">48dp</dimen>
+    <dimen name="default_padding_56dp">56dp</dimen>
+    <dimen name="default_padding_64dp">64dp</dimen>
+    <dimen name="default_padding_128dp">128dp</dimen>
 </resources>

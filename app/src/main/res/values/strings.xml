@@ -1,12 +1,21 @@
 <resources>
-    <string name="app_name">CRUD Sample</string>
+    <string name="app_name">Some App</string>
     <string name="action_settings">Settings</string>
-    <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="hello_first_fragment">Hello first fragment</string>
-    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <!-- Input Hints -->
+    <string name="hint_username">Input username</string>
+    <string name="hint_password">Input password</string>
+
+    <!-- Button Texts -->
+    <string name="button_login">Login</string>
+    <string name="button_submit">Submit</string>
+
+    <!-- Login -->
+    <string name="login_title">Login</string>
+    <string name="login_register_text"><u>No account yet? register now!</u></string>
+
+    <!-- Registration -->
+    <string name="registration_title">Register</string>
+    <string name="registration_login_text"><u>Already have an account? login now!</u></string>
+
 </resources>

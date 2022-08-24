@@ -2,6 +2,9 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id 'androidx.navigation.safeargs.kotlin'
+    id 'com.google.gms.google-services'
+    id 'kotlin-kapt'
+    id 'kotlin-parcelize'
 }
 
 android {
@@ -37,18 +40,33 @@ android {
 
 dependencies {
     def nav_version = "2.5.1"
+    def epoxy_version = "5.0.0-beta03"
+    def firebase_version = "30.3.2"
+    def dagger_version = "2.43.2"
+    def uniflow_version = "1.1.2"
+    def corbind_version = "1.5.5"
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.3.0'
     implementation 'com.google.android.material:material:1.4.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
     implementation "androidx.navigation:navigation-fragment-ktx:$nav_version"
     implementation "androidx.navigation:navigation-ui-ktx:$nav_version"
+    implementation "com.airbnb.android:epoxy:$epoxy_version"
+    kapt "com.airbnb.android:epoxy-processor:$epoxy_version"
+    implementation platform("com.google.firebase:firebase-bom:$firebase_version")
+    implementation 'com.google.firebase:firebase-auth-ktx'
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+    implementation "com.google.dagger:dagger:$dagger_version"
+    kapt "com.google.dagger:dagger-compiler:$dagger_version"
+    implementation "org.uniflow-kt:uniflow-core:$uniflow_version"
+    testImplementation "org.uniflow-kt:uniflow-test:$uniflow_version"
+    implementation "org.uniflow-kt:uniflow-android:$uniflow_version"
+    testImplementation "org.uniflow-kt:uniflow-android-test:$uniflow_version"
+    implementation "ru.ldralighieri.corbind:corbind:$corbind_version"
 
 }

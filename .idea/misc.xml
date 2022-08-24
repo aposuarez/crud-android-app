@@ -3,12 +3,24 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/drawable/bg_bottom_sheet.xml" value="0.1925" />
+        <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/drawable/bg_empty_placeholder.xml" value="0.1" />
+        <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/drawable/bg_toolbar.xml" value="0.1" />
+        <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/drawable/bg_white_rounded.xml" value="0.1" />
         <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/drawable/toolbar_bg.xml" value="0.1935" />
         <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/layout/activity_main.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/layout/fragment_add_note.xml" value="0.184375" />
         <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/layout/fragment_dashboard.xml" value="0.22291666666666668" />
         <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/layout/fragment_login.xml" value="0.20989583333333334" />
+        <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/layout/fragment_note_details.xml" value="0.3625" />
         <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/layout/fragment_registration.xml" value="0.21" />
         <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/layout/fragment_splash.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/layout/layout_confirmation.xml" value="0.25" />
+        <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/layout/layout_empty.xml" value="0.22" />
+        <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/layout/layout_loading.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/layout/layout_note_item.xml" value="0.5" />
+        <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/menu/menu_dashboard.xml" value="0.2965811965811966" />
+        <entry key="..\:/Users/izero/Desktop/Work/crud-android-app/app/src/main/res/menu/menu_main.xml" value="0.3625" />
       </map>
     </option>
   </component>

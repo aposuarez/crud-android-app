@@ -10,17 +10,17 @@
         android:id="@+id/loginTitleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login_title"
+        android:text="@string/title_login"
         android:theme="@style/DefaultPageTitle"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/usernameInputLayout"
+        android:id="@+id/emailInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/default_margin_32dp"
-        android:hint="@string/hint_username"
+        android:hint="@string/hint_email"
         android:paddingTop="@dimen/default_padding_4dp"
         app:boxBackgroundColor="@android:color/transparent"
         app:errorEnabled="true"
@@ -31,7 +31,7 @@
         app:layout_constraintTop_toBottomOf="@+id/loginTitleTextView">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/usernameEditText"
+            android:id="@+id/emailEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
@@ -53,7 +53,7 @@
         app:errorTextAppearance="@style/InputErrorTextAppearance"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usernameInputLayout">
+        app:layout_constraintTop_toBottomOf="@+id/emailInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passwordEditText"
@@ -66,11 +66,11 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
-        style="@style/PrimaryButton"
         android:id="@+id/loginButton"
-        android:enabled="true"
-        android:text="@string/button_login"
+        style="@style/PrimaryButton"
         android:layout_marginTop="@dimen/default_margin_32dp"
+        android:enabled="false"
+        android:text="@string/button_login"
         app:backgroundTint="@color/selector_primary_button_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -81,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/default_margin_8dp"
-        android:text="@string/login_register_text"
+        android:text="@string/text_login_register"
         android:textColor="@color/primary_accent"
         app:layout_constraintTop_toBottomOf="@+id/loginButton"
         app:layout_constraintLeft_toLeftOf="parent"

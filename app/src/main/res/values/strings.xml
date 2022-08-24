@@ -1,21 +1,58 @@
 <resources>
-    <string name="app_name">Some App</string>
+    <string name="app_name">Notes App</string>
     <string name="action_settings">Settings</string>
 
     <!-- Input Hints -->
-    <string name="hint_username">Input username</string>
+    <string name="hint_email">Input email</string>
     <string name="hint_password">Input password</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_description">Description</string>
 
     <!-- Button Texts -->
     <string name="button_login">Login</string>
     <string name="button_submit">Submit</string>
+    <string name="button_options">Options</string>
+    <string name="button_add">Add</string>
+    <string name="button_save">Save</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_ok">OK</string>
+    <string name="button_yes">Yes</string>
+    <string name="button_no">No</string>
+
+    <!-- Error Messages -->
+    <string name="text_error_invalid_email">Invalid email format.</string>
+    <string name="text_error_invalid_password">Password must be at least 8 characters long.</string>
+    <string name="text_error_failed_registration">Failed to register account. Check your inputs or use a different email and try again.</string>
+    <string name="text_error_failed_login">Failed to login. Please check your credentials and try again.</string>
+    <string name="text_error_failed_adding">Failed to add a new note. Please check your inputs and try again.</string>
+    <string name="text_error_failed_saving">Failed to save changes. Please check your inputs and try again.</string>
+    <string name="text_error_failed_deleting">Failed to delete this note. Please try again.</string>
 
     <!-- Login -->
-    <string name="login_title">Login</string>
-    <string name="login_register_text"><u>No account yet? register now!</u></string>
+    <string name="title_login">Login</string>
+    <string name="text_login_register"><u>No account yet? register now!</u></string>
 
     <!-- Registration -->
-    <string name="registration_title">Register</string>
-    <string name="registration_login_text"><u>Already have an account? login now!</u></string>
+    <string name="title_registration">Register</string>
+    <string name="text_registering">Registering…</string>
 
+    <!-- Dashboard -->
+    <string name="title_dashboard">Notes</string>
+    <string name="text_empty">You have not written any notes yet.</string>
+    <string name="id_dashboard_empty_placeholder">id-dashboard-empty-placeholder</string>
+    <string name="id_dashboard_notes_carousel">id-dashboard-notes-carousel</string>
+    <string name="id_dashboard_note">id-dashboard-note-</string>
+    <string name="text_dialog_logout_title">Logout</string>
+    <string name="text_dialog_logout_description">Are you sure you want to logout from your account?</string>
+
+    <!-- Add Note -->
+    <string name="title_add_note">New Note</string>
+    <string name="text_adding_note">Adding Note…</string>
+
+    <!-- Note Details -->
+    <string name="text_last_update">Last Update:</string>
+    <string name="text_deleting_note">Deleting…</string>
+    <string name="text_saving_changes">Saving…</string>
+    <string name="text_dialog_delete_title">Delete Note</string>
+    <string name="text_dialog_delete_description">You will not be able to view or recover this note after deleting it. Are you sure you want to delete this note?</string>
 </resources>

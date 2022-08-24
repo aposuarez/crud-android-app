@@ -1,0 +1,19 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="rectangle">
+            <corners android:radius="@dimen/default_corner_radius" />
+            <solid android:color="@color/primary_accent_transparent" />
+            <stroke
+                android:dashGap="5dp"
+                android:dashWidth="5dp"
+                android:width="3dp"
+                android:color="@color/primary_accent" />
+            <padding
+                android:bottom="5dp"
+                android:left="5dp"
+                android:right="5dp"
+                android:top="5dp" />
+        </shape>
+    </item>
+</layer-list>

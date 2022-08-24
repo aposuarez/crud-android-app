@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "335825450039",
+    "project_id": "wcminiproject",
+    "storage_bucket": "wcminiproject.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335825450039:android:254d6567b436e2c3e53bb2",
+        "android_client_info": {
+          "package_name": "com.jmsuarez.crudsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335825450039-qs65nodhl19snngpvinhbimacbavd7qa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfyerZ9a5qnON2tor0ldwM4MMNby-c1Ys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335825450039-qs65nodhl19snngpvinhbimacbavd7qa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,19 +1,29 @@
 package com.jmsuarez.crudsample.ui.splash
 
+import android.content.Context
 import android.os.Bundle
 import android.view.View
 import androidx.fragment.app.Fragment
-import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
+import com.jmsuarez.crudsample.CRUDApplication
 import com.jmsuarez.crudsample.R
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
 class SplashFragment : Fragment(R.layout.fragment_splash), CoroutineScope by MainScope() {
 
-    val viewModel : SplashViewModel by viewModels()
+    @Inject
+    lateinit var viewModel : SplashViewModel
+
+    override fun onAttach(context: Context) {
+        super.onAttach(context)
+
+        (requireActivity().application as CRUDApplication).appComponent.splashComponent().create()
+            .inject(this)
+    }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)

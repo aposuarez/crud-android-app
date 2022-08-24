@@ -1,14 +1,13 @@
 package com.jmsuarez.crudsample.ui.splash
 
 import androidx.lifecycle.ViewModel
+import com.jmsuarez.crudsample.data.remote.UserManager
+import javax.inject.Inject
 
-class SplashViewModel() : ViewModel() {
+class SplashViewModel @Inject constructor(private val userManager: UserManager) : ViewModel() {
 
     val splashScreenDelay: Long = 2000
 
-    suspend fun checkActiveSession() : Boolean{
-        //TODO: Check if user has active session.
-        return false
-    }
+    fun checkActiveSession() : Boolean = userManager.checkUserSession() != null
 
 }

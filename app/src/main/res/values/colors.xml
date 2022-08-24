@@ -3,9 +3,12 @@
     <color name="primary">#0058A8</color>
     <color name="primary_accent">#27A4FF</color>
     <color name="primary_darker">#00498A</color>
+    <color name="primary_accent_transparent">#3327A4FF</color>
     <color name="secondary">#FF8934</color>
+    <color name="secondary_transparent">#33FF8934</color>
 
     <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
     <color name="gray">#BDBDBD</color>
     <color name="light_gray">#F2F2F2</color>
 

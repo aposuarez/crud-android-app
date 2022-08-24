@@ -21,18 +21,18 @@
         android:id="@+id/registrationTitleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/registration_title"
+        android:text="@string/title_registration"
         android:theme="@style/DefaultPageTitle"
         android:layout_marginStart="@dimen/default_margin_16dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toRightOf="@+id/registerBackImageView" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/usernameInputLayout"
+        android:id="@+id/emailInputLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/default_margin_32dp"
-        android:hint="@string/hint_username"
+        android:hint="@string/hint_email"
         android:paddingTop="@dimen/default_padding_4dp"
         app:boxBackgroundColor="@android:color/transparent"
         app:errorEnabled="true"
@@ -43,7 +43,7 @@
         app:layout_constraintTop_toBottomOf="@+id/registrationTitleTextView">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/usernameEditText"
+            android:id="@+id/emailEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="text"
@@ -65,7 +65,7 @@
         app:errorTextAppearance="@style/InputErrorTextAppearance"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/usernameInputLayout">
+        app:layout_constraintTop_toBottomOf="@+id/emailInputLayout">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/passwordEditText"
@@ -78,11 +78,11 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton
-        style="@style/PrimaryButton"
         android:id="@+id/registrationSubmitButton"
-        android:enabled="true"
-        android:text="@string/button_submit"
+        style="@style/PrimaryButton"
         android:layout_marginTop="@dimen/default_margin_32dp"
+        android:enabled="false"
+        android:text="@string/button_submit"
         app:backgroundTint="@color/selector_primary_button_bg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

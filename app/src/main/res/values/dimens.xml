@@ -1,6 +1,8 @@
 <resources>
 
     <dimen name="default_page_spacing">28dp</dimen>
+    <dimen name="default_corner_radius">5dp</dimen>
+    <dimen name="default_shadow_length">8dp</dimen>
 
     <!--  Default margins  -->
     <dimen name="default_margin_2dp">2dp</dimen>
